@@ -27,6 +27,10 @@ public class Student {
 	public void setAddress(String address) {
 		this.address = address;
 	}
+	@Override
+	public String toString() {
+		return "Student [id=" + id + ", name=" + name + ", address=" + address + "]";
+	}
 	
 	
 }
